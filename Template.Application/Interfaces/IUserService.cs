@@ -14,5 +14,7 @@ namespace Template.Application.Interfaces
         bool Put(UserViewModel userViewModel);
         bool Delete(string id);
 
+        UserAthenticateResponseViewModel Authenticate(UserAuthenticateRequestViewModel user);
+
     }
 }
